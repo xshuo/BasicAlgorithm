@@ -1,3 +1,4 @@
+#ifdef __2243__
 #include <iostream>
 #include <queue>
 #include <cmath>
@@ -191,3 +192,4 @@ int main(int argc, char** args) {
         //printf("-----------------------------------------------------\n");
     }
 }
+#endif
