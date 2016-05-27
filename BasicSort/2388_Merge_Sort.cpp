@@ -1,3 +1,4 @@
+#ifdef __2388_MERGE_SORT__
 #include <string.h>
 
 //merge sort -->O(nlgn)
@@ -44,3 +45,4 @@ void merge_sort(int* array, int start, int end) {
         merge(array, start, (start + end) / 2 - 1, end - 1);
     }
 }
+#endif

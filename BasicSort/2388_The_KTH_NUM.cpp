@@ -1,6 +1,4 @@
-#define THE_KTH_NUM
-
-#ifdef THE_KTH_NUM
+#ifdef __2388_THE_KTH_NUM__
 void swap(int* x, int* y) {
     if (x == y) return;//Ð¡ÐÄzhuangBÕÐÀ×Åü...
     (*x) ^= (*y) ^= (*x) ^= (*y);

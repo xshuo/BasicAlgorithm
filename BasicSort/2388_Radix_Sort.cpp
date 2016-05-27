@@ -3,6 +3,7 @@
 //要用到counting sort
 //算法导论 99.
 //线性排序
+#ifdef __2388_RADIX_SORT__
 #define RADIX_SORT
 #ifdef RADIX_SORT
 
@@ -47,5 +48,5 @@ void radix_sort(int* array, int start, int end) {
         digit_count_sort(array, start, end, j);
     }
 }
-
+#endif
 #endif

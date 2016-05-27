@@ -35,6 +35,7 @@ key取第一个，i取key的位置，j取第二个
 然后这个比key小的就又空了，然后从前往后找比key大的放到空洞
 直到撞上。
 */
+#ifdef __2388_Q_SORT__
 int q_sort_partition(int* array , int start, int end) {
     int value = array[start];
     int i, j;
@@ -59,3 +60,4 @@ void q_sort(int* array, int start, int end) {
          q_sort(array, middle + 1, end);
      }
 }
+#endif

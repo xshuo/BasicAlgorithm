@@ -4,7 +4,7 @@
 他的位置作为第一个空洞，然后向前比较，前面比他大的依次后移。
 初始状态，第一个数一定是有序的。从第二个开始往后摸
 */
-
+#ifdef __2388_INSERTION_SORT__
 void insertion_sort(int* array, int start, int end) {
     int j = start + 1;
     while (j < end) {
@@ -23,3 +23,4 @@ void insertion_sort(int* array, int start, int end) {
         j++;
     }   
 }
+#endif
